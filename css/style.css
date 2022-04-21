@@ -18,8 +18,15 @@ svg {
 .col {
   width: 100%;
 }
+.nav__item {
+  margin: 0 0 0 1.5rem;
+}
 
-.menu1 {
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+.nav__link {
   text-decoration: none;
   text-transform: uppercase;
   color: black;
@@ -56,7 +63,6 @@ body {
 .img-box {
   text-align: right;
   margin-top: 0;
-  max-width: 100%;
 }
 
 .footer {
@@ -76,14 +82,12 @@ body {
 }
 .lugar--1 {
   background-color: white;
-  max-width: 50%;
 }
-.imagenes {
-  margin: 0.5rem;
-  padding: 0.5rem;
-  align-content: space-around;
+.lugar--2 {
+  background: rgb(255, 255, 255);
+  max-width: 1000px;
+  max-height: 500px;
 }
-
 .row {
   display: flex;
   justify-content: space-evenly;
