@@ -10,6 +10,11 @@ img,
 svg {
   vertical-align: middle;
 }
+.menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-color: white;
+  text-transform: uppercase;
+}
 .container {
   width: 80%;
   margin: 0 auto;
