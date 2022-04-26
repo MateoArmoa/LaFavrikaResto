@@ -46,7 +46,9 @@ header {
   text-transform: uppercase;
   color: black;
 }
-
+.navbar-toggler-icon {
+  background-color: black;
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
