@@ -1,0 +1,19 @@
+.nav__item {
+  margin: 0 0 0 1.5rem;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+.navbar-toggler-icon {
+  background-color: black;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
